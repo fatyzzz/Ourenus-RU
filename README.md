@@ -1,11 +1,11 @@
-# قالب اخنصاصی مرزبان و مرزنشین اورانوس | Ourenus
+# Русскоязычный форк | Ourenus
 
-## Desktop View
+## Вид с компьютера
 <img width="1458" alt="image" src="https://github.com/user-attachments/assets/49983ceb-fefd-4a35-a488-4202dc7bd353">
 
 
 
-## Responsive Mobile View
+## Вид с компьютера
 ![image](https://github.com/user-attachments/assets/9a0605e4-f339-4a79-86f5-5aadd4fee9d9)
 
 
@@ -13,7 +13,7 @@
 
 ---
 
-## ساخته شده توسط
+## Нужные переменные
 - **React**: Version 18
 - **Vite**: Version 5
 - **Material UI**
@@ -31,14 +31,14 @@
 
 ## مراحل نصب
 
-### مرزبان
+### Установка
 
-۱. **قالب رو با دستور زیر دانلود کنید**
+. 1 Этап**
    ```sh
    sudo wget -N -P /var/lib/marzban/templates/subscription/ https://github.com/MatinDehghanian/Ourenus/releases/latest/download/index.html
    ```
 
-۲. **دستورات زیر رو تو ترمینال سرورتون بزنید**
+۲. Добавьте это в файл**
    ```sh
    echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"' | sudo tee -a /opt/marzban/.env
    echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/marzban/.env
